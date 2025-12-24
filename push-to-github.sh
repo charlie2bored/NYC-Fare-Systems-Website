@@ -15,7 +15,7 @@ git remote add origin https://github.com/charlie2bored/NYC-Fare-Systems-Website.
 git add .
 
 # Commit
-git commit -m "Initial commit: NYC Fare Systems website" || git commit -m "Update: NYC Fare Systems website"
+git commit -m "Add Vercel configuration and build script" || git commit -m "Update: Add Vercel configuration"
 
 # Set main branch and push
 git branch -M main
