@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(0 0% 0%);
+
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(0 0% 0%);
+
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(0 0% 0%);
+
+  --color-primary: hsl(0 0% 0%);
+  --color-primary-foreground: hsl(0 0% 100%);
+
+  --color-secondary: hsl(0 0% 96%);
+  --color-secondary-foreground: hsl(0 0% 0%);
+
+  --color-muted: hsl(0 0% 96%);
+  --color-muted-foreground: hsl(0 0% 45%);
+
+  --color-accent: hsl(0 0% 96%);
+  --color-accent-foreground: hsl(0 0% 0%);
+
+  --color-destructive: hsl(0 0% 0%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+
+  --color-border: hsl(0 0% 0%);
+  --color-input: hsl(0 0% 0%);
+  --color-ring: hsl(0 0% 0%);
+
+  --color-chart-1: hsl(0 0% 0%);
+  --color-chart-2: hsl(0 0% 40%);
+  --color-chart-3: hsl(0 0% 60%);
+  --color-chart-4: hsl(0 0% 80%);
+  --color-chart-5: hsl(0 0% 90%);
+
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground selection:bg-black selection:text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold uppercase tracking-tight;
+  }
+}
+
+/* Custom Brutalist Utilities */
+@layer utilities {
+  .border-b-black {
+    border-bottom: 2px solid black;
+  }
+  .border-black {
+    border: 2px solid black;
+  }
+}
