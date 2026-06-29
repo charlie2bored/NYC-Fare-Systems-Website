@@ -232,7 +232,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Equity & Impact Analysis</h3>
                 </div>
                 <div className="md:col-span-8 text-lg text-gray-600 leading-relaxed space-y-4">
-                  <p>Performed borough-level grouping to determine that 29% of riders pay less under the new model.</p>
+                  <p>Performed borough-level grouping to determine that 14.8% of riders pay less under the corrected network-distance model.</p>
                   <p>Identified the top-performing routes (e.g., Penn Station to 5th/53rd) where high volume generates the most significant revenue.</p>
                 </div>
               </div>
@@ -275,11 +275,11 @@ export default function Home() {
                   </div>
                   <div>
                     <span className="font-mono text-xs text-gray-500 uppercase block">Proposed Revenue</span>
-                    <span className="text-3xl md:text-4xl font-bold tracking-tighter">$3.74B</span>
+                    <span className="text-3xl md:text-4xl font-bold tracking-tighter">$3.75B</span>
                   </div>
                   <div>
                     <span className="font-mono text-xs text-gray-500 uppercase block">Revenue Surplus</span>
-                    <span className="text-3xl md:text-4xl font-bold tracking-tighter">+$277M <span className="text-xl text-gray-500 font-normal">(+8.0%)</span></span>
+                    <span className="text-3xl md:text-4xl font-bold tracking-tighter">+$280.5M <span className="text-xl text-gray-500 font-normal">(+8.1%)</span></span>
                   </div>
                   <div className="pt-2">
                     <span className="text-lg"><strong>29%</strong> of riders pay less</span>
